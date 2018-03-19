@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; }
+
+header img {
+  width: 100%;
+  height: 250px; }
+
+.main {
+  padding-top: 50px; }
+  .main .container {
+    padding: 0 50px; }
+    .main .container h2 {
+      color: red;
+      font-size: 2rem;
+      text-align: center; }
+    .main .container .principles {
+      margin: 30px auto;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: space-between;
+      -webkit-flex-direction: column;
+      flex-direction: column; }
+      .main .container .principles .principle {
+        padding: 20px; }
+        .main .container .principles .principle h3 {
+          text-align: center; }
+        .main .container .principles .principle p {
+          margin-top: 10px; }
+
+footer {
+  margin: 50px auto 30px; }
+  footer p {
+    font-size: 1.6rem;
+    margin: 0 auto;
+    text-align: center; }
+  footer .amazon-button {
+    width: 150px;
+    display: block;
+    background-color: black;
+    color: white;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+
+@media (min-width: 769px) {
+  header img {
+    width: 100%;
+    height: 500px; }
+
+  .main .container .principles {
+    margin: 30px auto;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between; }
+
+  footer .amazon-button {
+    width: 150px;
+    display: block;
+    background-color: black;
+    color: white;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; } }
+
+/*# sourceMappingURL=style.css.map */
